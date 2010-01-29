@@ -1,2 +1,22 @@
 
 retry.sh
+--------
+
+a friend of mine likes to listen to online radio via mplayer. 
+but, especialy at noon, the server likes to kick him, which means he has to stop 
+doing what he is doing and restart mplayer - this is what retry.sh now does for him.
+
+usage
+-----
+
+$ retry.sh PROGRAM_TO_EXECUTE
+
+
+retry.sh will try it 30 times. 
+
+
+
+known issues:
+-------------
+
+you cant stop it via ^c. Try ^z and kill the sleeoing process
