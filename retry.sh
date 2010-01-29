@@ -1,6 +1,13 @@
 #!/bin/bash
 
 
+
+if [ -z "$1" ]
+then
+        echo "please give me a command to execute, see README for usage"
+        exit 1
+fi
+
 COUNT=0
 while [ "$COUNT" != "30" ]
 do
